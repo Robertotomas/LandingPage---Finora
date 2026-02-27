@@ -17,7 +17,13 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+# Environment (secrets!)
+.env
+.env.local
+.env.*.local
+
 # Misc
 .DS_Store
 .fleet
 .idea
+.cursor
